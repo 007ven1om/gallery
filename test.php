@@ -1,5 +1,5 @@
 <?php
-if ($_GET['id']==0) {
+if ($_GET['repo']==0) {
     for ($i=1 ; $i <= 999; $i++) { 
         $url = "https://sex4arabxxx.b-cdn.net/0/$i/$i.mp4";
         $url_image="https://sex4arab.xxx/contents/videos_screenshots/0/$i/preview_360.mp4.jpg";
@@ -8,8 +8,8 @@ if ($_GET['id']==0) {
             ';
     }
 }
-if ($_GET['id']!==0) {
-$id=$_GET['id'];
+if ($_GET['repo']!==0) {
+$id=$_GET['repo'];
     function show_video($id,$start,$end){
         for ($i=$start; $i <= $end; $i++) { 
             $url = "https://sex4arabxxx.b-cdn.net/$start/$i/$i.mp4";
